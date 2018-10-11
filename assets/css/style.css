@@ -1,0 +1,36 @@
+.html{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	padding: 0;
+}
+.navbar-brand{
+	padding: 0;
+}
+.logo{
+	border-radius: 100%;
+}
+.div-black{
+	padding: 4%;
+	background: url("../img/back.jpg");
+	background-size: cover;
+}
+.div-black h1{
+	color: #ffffff;
+	font-size: 200%;
+}
+.div-black p{
+	color: #ffffff;
+}
+.icon{
+	margin: 0.3%;
+	float: left;
+	text-decoration: none;
+}
+.icon img{
+	width: 30px;
+}
+.social-icon{
+	margin-left: 3%;
+}
