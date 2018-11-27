@@ -7,5 +7,7 @@
 	color: #ff0000;
 }
 .prf-img{
+	width: 128px;
+	height: 128px;
 	border-radius: 100%;
 }
