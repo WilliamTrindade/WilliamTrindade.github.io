@@ -1,9 +1,11 @@
-.icon a {
+.lk {
 	text-decoration: none;
 	color: #ffffff;
 	transition: 0.5s;
 }
-.icon a:hover {
-	text-decoration: none;
+.lk :hover {
 	color: #ff0000;
+}
+.prf-img{
+	border-radius: 100%;
 }
