@@ -4,7 +4,6 @@
 .lk {
 	margin: 0.4%;
 	text-decoration: none;
-	color: red;
 	transition: 0.5s;
 }
 .lk :hover {
@@ -29,7 +28,7 @@
 
 }
 .m-subtitle {
-	font-size: 110%;
+	font-size: 100%;
 	color:hsl(0, 0%, 21%);
 }
 .m-box {
