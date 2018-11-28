@@ -1,12 +1,14 @@
+.m-lk-box {
+	padding-bottom: 4%;
+}
 .lk {
-	height: 500px;
-	width: 500px;
+	margin: 0.4%;
 	text-decoration: none;
-	color: #ffffff;
+	color: red;
 	transition: 0.5s;
 }
 .lk :hover {
-	color: #ff0000;
+	color: #f44248;
 }
 .prf-img{
 	margin-bottom: 1%;
@@ -19,6 +21,7 @@
 	background-color: white;
 	height: auto;
 	margin-top: 10%;
+	margin-bottom: 10%;
 }
 .m-title {
 	font-size: 150%;
@@ -38,13 +41,12 @@
 .paralax {
 	/* The image used */
     background: url("../img/bk.jpeg");
-
-    /* Full height */
-
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+footer {
+	padding: 6%;
 }
