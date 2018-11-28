@@ -9,7 +9,42 @@
 	color: #ff0000;
 }
 .prf-img{
+	margin-bottom: 1%;
 	width: 128px;
 	height: 128px;
 	border-radius: 100%;
+}
+.div {
+	width: 100%;
+	background-color: white;
+	height: auto;
+	margin-top: 10%;
+}
+.m-title {
+	font-size: 150%;
+	color:hsl(0, 0%, 21%);
+
+}
+.m-subtitle {
+	font-size: 110%;
+	color:hsl(0, 0%, 21%);
+}
+.m-box {
+	padding: 4%;
+}
+.m-box:hover {
+	background-color: hsl(0, 0%, 96%);
+}
+.paralax {
+	/* The image used */
+    background: url("../img/bk.jpeg");
+
+    /* Full height */
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
