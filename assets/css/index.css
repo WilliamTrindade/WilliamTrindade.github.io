@@ -1,5 +1,15 @@
+.m-head-div {
+	color: #fff;
+	background-color: black;
+}
+.m-black {
+	background-color: red;
+}
 .m-lk-box {
 	padding-bottom: 4%;
+}
+.m-lk-box a {
+	color: #fff;
 }
 .lk {
 	margin: 0.4%;
@@ -17,10 +27,7 @@
 }
 .div {
 	width: 100%;
-	background-color: white;
 	height: auto;
-	margin-top: 10%;
-	margin-bottom: 10%;
 }
 .m-title {
 	font-size: 150%;
@@ -32,7 +39,11 @@
 	color:hsl(0, 0%, 21%);
 }
 .m-box {
+	background-color: #fff;
 	padding: 4%;
+	margin: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
 .m-box:hover {
 	background-color: hsl(0, 0%, 96%);
@@ -48,4 +59,10 @@
 }
 footer {
 	padding: 6%;
+}
+.title {
+	color: #fff;
+}
+.subtitle {
+	color: #fff;
 }
