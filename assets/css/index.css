@@ -1,68 +1,111 @@
-.m-head-div {
-	color: #fff;
-	background-color: black;
+* {
+	margin: 0;
 }
-.m-lk-box {
-	margin: 2%;
-}
-.lk {
-	color: #fff;
-	margin: 0.4%;
-	text-decoration: none;
-	transition: 0.5s;
-}
-.lk :hover {
-	color: #f44248;
-}
-.lk i {
+.navbar {
+	float: left;
 	width: 100%;
-	height: 100%;
+	background-color: #000;
+	text-align: center;
 }
-.prf-img{
-	margin-bottom: 1%;
-	width: 128px;
-	height: 128px;
-	border-radius: 100%;
-}
-.div {
+.banner {
+	float: left;
 	width: 100%;
-	height: auto;
+	background: url('../img/bk.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
 }
-.m-title {
-	font-size: 150%;
-	color:hsl(0, 0%, 21%);
-
-}
-.m-subtitle {
+.banner h1 {
+	text-align: center;
+	border: #000 2px solid;
+	padding: 1%;
+	float: left;
+	background-color:black;
+	color: #fff;
 	font-size: 100%;
-	color:hsl(0, 0%, 21%);
+	font-family: arial;
+	margin: 10% 4% 10% 4%;
+	transition-duration: 1s;
 }
-.m-box {
-	border-radius: 5px;
-	background-color: #fff;
-	padding: 4%;
-	margin: 2%;
-	margin-bottom: 2%;
+.banner h1:hover {
+	border: #fff 2px solid;
+}
+.content {
+	margin: 3%;
+	width: 91%;
+	height: auto;
+	float: left;
+}
+.box {
+	margin: 1%;
+	border: black 2px solid;
+	width:47.6%;
+	height:200px;
+	float: left;
+}
+.box h1 {
+	font-family: arial;
+	margin-left: 4%;
 	margin-top: 2%;
 }
-.m-box:hover {
-	background-color: hsl(0, 0%, 96%);
+.box p {
+	font-family: arial;
+	margin:2% 2% 4% 4%;
 }
-.paralax {
-	/* The image used */
-    background: url("../img/bk.jpeg");
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.box a {
+	transition: 0.5s;
+	font-family: arial;
+	color: #000;
+	margin:2% 2% 4% 4%;
+	text-decoration: none;
+	padding: 2%;
+	border:black 2px solid;
+}
+.box a:hover {
+	background-color: #000;
+	color: #fff;
+	border-left: 10px solid #000;
+}
+
+.f-box {
+	border: black 2px solid;
+	width:97.6%;
+	margin: 1%;
+	height:auto;
+	float: left;
+}
+.f-box h1 {
+	font-family: arial;
+	margin-left: 2%;
+	margin-top: 1%;
+}
+.f-box p {
+	font-family: arial;
+	margin:1% 1% 2% 2%;
+}
+.f-box a {
+	float: left;
+	transition: 0.5s;
+	font-family: arial;
+	color: #000;
+	margin:1% 2% 1% 2%;
+	text-decoration: none;
+	padding: 1%;
+	border:black 2px solid;
+}
+.f-box a:hover {
+	background-color: #000;
+	color: #fff;
+	border-left: 10px solid #000;
 }
 footer {
-	padding: 6%;
+	width: 100%;
+	float: left;
+	background-color: #000;
 }
-.title {
+footer p {
+	font-size: 100%;
+	margin: 4%;
+	float: left;
 	color: #fff;
-}
-.subtitle {
-	color: #fff;
+	font-family: arial;
 }
