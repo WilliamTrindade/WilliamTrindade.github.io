@@ -52,6 +52,7 @@
 	margin:2% 2% 4% 4%;
 }
 .box a {
+	float: left;
 	transition: 0.5s;
 	font-family: arial;
 	color: #000;
@@ -109,3 +110,22 @@ footer p {
 	color: #fff;
 	font-family: arial;
 }
+@media only screen and (max-width: 1100px) {
+	.box {
+		margin: 1%;
+		border: black 2px solid;
+		width:97.6%;
+		height:auto;
+		float: left;
+	}
+	.f-box a {
+		margin:2% 2% 4% 4%;
+		padding: 2%;
+	}
+	.f-box p {
+		margin:2% 2% 4% 4%;
+	}
+	.f-box h1 {
+		margin:2% 2% 4% 4%;
+	}
+} 
