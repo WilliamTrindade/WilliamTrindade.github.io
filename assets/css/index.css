@@ -43,6 +43,7 @@
 	float: left;
 }
 .box h1 {
+	font-size: 140%;
 	font-family: arial;
 	margin-left: 4%;
 	margin-top: 2%;
@@ -51,7 +52,7 @@
 	font-family: arial;
 	margin:2% 2% 4% 4%;
 }
-.box a {
+.buttom {
 	float: left;
 	transition: 0.5s;
 	font-family: arial;
@@ -61,7 +62,7 @@
 	padding: 2%;
 	border:black 2px solid;
 }
-.box a:hover {
+.buttom:hover {
 	background-color: #000;
 	color: #fff;
 	border-left: 10px solid #000;
@@ -75,6 +76,7 @@
 	float: left;
 }
 .f-box h1 {
+	font-size: 140%;
 	font-family: arial;
 	margin-left: 2%;
 	margin-top: 1%;
@@ -83,7 +85,7 @@
 	font-family: arial;
 	margin:1% 1% 2% 2%;
 }
-.f-box a {
+.f-buttom {
 	float: left;
 	transition: 0.5s;
 	font-family: arial;
@@ -93,7 +95,7 @@
 	padding: 1%;
 	border:black 2px solid;
 }
-.f-box a:hover {
+.f-buttom:hover {
 	background-color: #000;
 	color: #fff;
 	border-left: 10px solid #000;
@@ -110,6 +112,21 @@ footer p {
 	color: #fff;
 	font-family: arial;
 }
+.item {
+	font-size: 120%;
+}
+.box-flex {
+	height: auto;
+}
+.l-item {
+	padding: 0;
+	font-size: 120%;
+	text-decoration: none;
+	font-family: arial;
+	float: left;
+	margin:1% 1% 2% 2%;
+	color: #000;
+}
 @media only screen and (max-width: 1100px) {
 	.box {
 		margin: 1%;
@@ -118,7 +135,7 @@ footer p {
 		height:auto;
 		float: left;
 	}
-	.f-box a {
+	.f-buttom {
 		margin:2% 2% 4% 4%;
 		padding: 2%;
 	}
@@ -127,5 +144,8 @@ footer p {
 	}
 	.f-box h1 {
 		margin:2% 2% 4% 4%;
+	}
+	.l-item {
+		margin: 0% 0% 4% 4%;
 	}
 } 
